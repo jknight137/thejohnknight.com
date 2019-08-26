@@ -29,4 +29,4 @@ jobs:
             apt-get install -y awscli
       - run:
           name: Push to S3 bucket
-          command: cd public/ && aws s3 sync . s3://infoshock.net
+          command: cd public/ && aws s3 sync . s3://infoshock.net --region us-east-2
