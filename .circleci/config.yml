@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: node:9.9.0
-    working_directory: ~/hexoblog
+    working_directory: ~/thejohnknight.com
     steps:
       - checkout
       - run:
